@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Calistoga', cursive;
+  font-size: 60px;
 }
 
 .App-logo {
@@ -19,4 +21,33 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.App input {
+
+  height: 1.2em;
+  width: 1.2em;
+}
+
+.App .header {
+  font-size: 1.2em;
+}
+
+.App .header .helper{
+  font-size: 0.7em;
+}
+
+.App .number, .App .input, .App button {
+  font-size: 1.6em;
+  margin-left: .3em;
+  margin-right: .3em;
+}
+
+.App button {
+  border-radius: 0.5em;
+  padding: 0.3em;
+}
+
+.App button:hover {
+  background-color: #09d3ac;
 }
